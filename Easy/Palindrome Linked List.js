@@ -17,18 +17,7 @@ const array2 = [1, 2, 2, 1];
 const array3 = [1, 2];
 
 const func = (head) => {
-  let prev = head;
-  let next = head;
-
-  while (next != null || next?.next != null || prev !== next) {
-    prev = prev?.next;
-    next = next?.next;
-  }
-  if (prev === next) {
-    return true;
-  } else {
-    return false;
-  }
+  
 };
 
 console.log(func(array2));
